@@ -19,7 +19,7 @@ newReadme += "```html\n";
 newReadme += "  <!-- From: https://github.com/lgarron/minimal-html-style -->\n";
 newReadme += snippet;
 newReadme += "\n```";
-newReadme += rest.split("```")[1];
+newReadme += rest.split("```").slice(1).join("```");
 
 console.log(newReadme);
 
