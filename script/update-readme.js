@@ -16,6 +16,7 @@ const oldReadme = await readFile(
 );
 let [newReadme, rest] = oldReadme.split("```html");
 newReadme += "```html\n";
+newReadme += "  <!-- From: https://github.com/lgarron/minimal-html-style -->\n";
 newReadme += snippet;
 newReadme += "\n```";
 newReadme += rest.split("```")[1];
