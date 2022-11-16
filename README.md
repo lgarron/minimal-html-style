@@ -26,6 +26,23 @@ Place in the `<head>` of a page:
 
 See [`index.html`](./index.html) for more.
 
+## Explanation
+
+The snippet makes these opinionated choice:
+
+- **Sans-serif font** for cleaner screen display.
+- **Slightly larger font** for easier reading, especially for pages with very few (even one) line of text.
+- **Centered text** for neater visual aesthetics.
+- **Maximum width** for easier reading and scanning on large screens, automatially adjusting ("responsive") to fill smaller screens.
+- **Dark mode** with corresponding text and link color fixes.
+- **Mobile viewport scaling** to prevent very small text size on mobile screens.
+
+Additional changes you might like:
+
+```css
+body { text-align: justify; }
+```
+
 ## Screenshots
 
 ### iOS
