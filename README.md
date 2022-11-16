@@ -30,12 +30,17 @@ See [`index.html`](./index.html) for more.
 
 The snippet makes these opinionated choice:
 
-- **Sans-serif font** for cleaner screen display.
+- **Sans-serif font** for less-cluttered screen display.
 - **Slightly larger font** for easier reading, especially for pages with very few (even one) line of text.
-- **Centered text** for neater visual aesthetics.
+- **Horizontally centered text** for visual balance.
 - **Maximum width** for easier reading and scanning on large screens, automatially adjusting ("responsive") to fill smaller screens.
 - **Dark mode** with corresponding text and link color fixes.
 - **Mobile viewport scaling** to prevent very small text size on mobile screens.
+
+Excluded choices:
+
+- No **vertical centering** — this can interfere with other CSS too easily.
+- No **general resets** — this is not a CSS framework, just a way to spruce up pages that you want put together in a minute and move on.
 
 Additional changes you might like:
 
