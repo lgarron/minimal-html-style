@@ -25,3 +25,27 @@ Place in the `<head>` of a page:
 ```
 
 See [`index.html`](./index.html) for more.
+
+## Screenshots
+
+### iOS
+
+<img src="./screenshots/ios-safari-horizontal-dark.png" height="200">
+
+<img src="./screenshots/iOS-safari-vertical-light.jpg" height="300">
+
+### Android
+
+<img src="./screenshots/android-chrome-light-landscape.png" height="200">
+
+### Laptop
+
+<img src="./screenshots/macOS-safari-medium_size-dark.png" height="400">
+
+### Large screen (5K)
+
+<img src="./screenshots/macOS-chrome-dark-5K.png" width="600">
+
+### Narrow window
+
+<img src="./screenshots/macOS-chrome-dark-tall.png" width="300">
