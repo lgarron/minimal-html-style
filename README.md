@@ -33,7 +33,7 @@ The snippet makes these opinionated choice:
 - **Sans-serif font** — for less-cluttered screen display.
 - **Slightly larger font** — for easier reading, especially for pages with very few (even one) line of text.
 - **Horizontally centered text** — for visual balance.
-- **Maximum width** — for easier reading and scanning on large screens, automatially adjusting ("responsive") to fill smaller screens.
+- **Maximum width** — for easier reading and scanning on large screens, automatically adjusting ("responsive") to fill smaller screens.
 - **Dark mode** — with corresponding text and link color fixes.
 - **Mobile viewport scaling** — to prevent very small text size on mobile screens.
 
