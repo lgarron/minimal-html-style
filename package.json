@@ -1,6 +1,11 @@
 {
   "type": "module",
   "devDependencies": {
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "rome": "^10.0.1"
+  },
+  "scripts": {
+    "lint": "npx rome check ./script",
+    "format": "npx rome format ./script"
   }
 }

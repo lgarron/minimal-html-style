@@ -1,8 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const fullHTML = await readFile(
-	new URL("../index.html", import.meta.url),
-	"utf-8",
+  new URL("../index.html", import.meta.url),
+  "utf-8",
 );
 let snippet = fullHTML.match(/.*viewport.*\n/)[0];
 snippet += "  <style>";
@@ -11,8 +11,8 @@ snippet += "</style>";
 console.log(snippet);
 
 const oldReadme = await readFile(
-	new URL("../README.md", import.meta.url),
-	"utf-8",
+  new URL("../README.md", import.meta.url),
+  "utf-8",
 );
 let [newReadme, rest] = oldReadme.split("```html");
 newReadme += "```html\n";
