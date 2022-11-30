@@ -7,7 +7,7 @@ An HTML style snippet that looks nice on all devices while being as small as pos
 Place in the `<head>` of a page:
 
 ```html
-  <!-- From: https://github.com/lgarron/minimal-html-style -->
+  <!-- From: https://github.com/lgarron/minimal-html-style (v1.0.0) -->
   <meta name="viewport" content="width=device-width, initial-scale=0.75">
   <style>
     html {
