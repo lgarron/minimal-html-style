@@ -42,10 +42,24 @@ Excluded choices:
 - No **vertical centering** — this can interfere with other CSS too easily.
 - No **general resets** — this is not a CSS framework, just a way to spruce up pages that you want put together in a minute and move on.
 
-Additional changes you might like:
+## Additional changes you might like
+
+### Justify the text column
 
 ```css
-body { text-align: justify; }
+body {
+  text-align: justify;
+}
+```
+
+### Center the body
+
+```css
+html {
+  min-height: 100%;
+  place-content: center;
+  box-sizing: border-box;
+}
 ```
 
 ## Screenshots
