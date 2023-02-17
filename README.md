@@ -62,6 +62,30 @@ html {
 }
 ```
 
+### Reuse the background and text colors in CSS
+
+```css
+  html {
+    --background-color: 255, 255, 255;
+    --content-color: 0, 0, 0;
+
+    background-color: rgba(var(--background-color), 1);
+    color: rgba(var(--content-color), 1);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      --background-color: 34, 34, 34;
+      --content-color: 238, 238, 238;
+    }
+  }
+
+  /* Use the color variables like this. */
+  .outlined-box {
+    border: 1px solid rgba(var(--content-color), 1);
+  }
+```
+
 ## Screenshots
 
 ### iOS
