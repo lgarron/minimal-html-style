@@ -10,17 +10,13 @@ Place in the `<head>` of a page:
   <!-- From: https://github.com/lgarron/minimal-html-style (v1.0.0) -->
   <meta name="viewport" content="width=device-width, initial-scale=0.75">
   <style>
+    :root { color-scheme: light dark; }
     html {
       font-family: -apple-system, Roboto, Ubuntu, Tahoma, sans-serif;
       font-size: 1.25rem; padding: 2em;
       display: grid; justify-content: center;
     }
     body { width: 100%; max-width: 40em; margin: 0; }
-    @media (prefers-color-scheme: dark) {
-      html { background: #000D; color: #EEE; }
-      a { color: #669df5; }
-      a:visited { color: #af73d5; }
-    }
   </style>
 ```
 
@@ -52,7 +48,9 @@ body {
 }
 ```
 
-### Center the body
+Also see: [`text-wrap: balance`](https://developer.chrome.com/docs/css-ui/css-text-wrap-balance).
+
+### Fully center the body
 
 ```css
 html {
@@ -60,30 +58,6 @@ html {
   place-content: center;
   box-sizing: border-box;
 }
-```
-
-### Reuse the background and text colors in CSS
-
-```css
-  html {
-    --background-color: 255, 255, 255;
-    --content-color: 0, 0, 0;
-
-    background-color: rgba(var(--background-color), 1);
-    color: rgba(var(--content-color), 1);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    html {
-      --background-color: 34, 34, 34;
-      --content-color: 238, 238, 238;
-    }
-  }
-
-  /* Use the color variables like this. */
-  .outlined-box {
-    border: 1px solid rgba(var(--content-color), 1);
-  }
 ```
 
 ## Screenshots
