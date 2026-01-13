@@ -16,7 +16,7 @@ Place in the `<head>` of a page:
       font-size: 1.25rem; padding: 2em;
       display: grid; justify-content: center;
     }
-    body { width: 100%; max-width: 40em; margin: 0; }
+    body { width: 100%; max-width: 40em; margin: 0; overflow: scroll; }
   </style>
 ```
 
