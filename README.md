@@ -48,7 +48,7 @@ body {
 }
 ```
 
-Also see: [`text-wrap: balance`](https://developer.chrome.com/docs/css-ui/css-text-wrap-balance).
+Also see: [`text-wrap: pretty`](https://webkit.org/blog/16547/better-typography-with-text-wrap-pretty/).
 
 ### Fully center the body
 
